@@ -1,6 +1,20 @@
 import { MessageCircle } from "lucide-react";
 
-const WHATSAPP_URL = "https://wa.me/5511999999999?text=Olá! Preciso de um guincho.";
+const WHATSAPP_MSG = `🚛 Pretos'car Guincho 24h
+
+Olá! Recebemos sua mensagem 👋
+Já vamos te atender o mais rápido possível.
+
+Para agilizar seu atendimento, por favor envie:
+📍 Sua localização
+🚗 Tipo de veículo
+⚠️ Situação (pane, batida, etc.)
+
+Assim que confirmado, enviaremos a localização do nosso guincho em tempo real para você acompanhar a chegada.
+
+📞 Atendimento rápido em Guarulhos e região.`;
+
+const WHATSAPP_URL = `https://wa.me/5511999999999?text=${encodeURIComponent(WHATSAPP_MSG)}`;
 
 const FloatingWhatsApp = () => (
   <a
