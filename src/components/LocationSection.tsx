@@ -1,4 +1,4 @@
-import { MapPin, Navigation } from "lucide-react";
+import { Navigation } from "lucide-react";
 
 const LocationSection = () => (
   <section className="py-20 bg-muted" id="localizacao">
