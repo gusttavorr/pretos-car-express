@@ -1,21 +1,7 @@
 import { Phone, MessageCircle } from "lucide-react";
 
 const PHONE = "(11) 99999-9999";
-const WHATSAPP_MSG = `🚛 Pretos'car Guincho 24h
-
-Olá! Recebemos sua mensagem 👋
-Já vamos te atender o mais rápido possível.
-
-Para agilizar seu atendimento, por favor envie:
-📍 Sua localização
-🚗 Tipo de veículo
-⚠️ Situação (pane, batida, etc.)
-
-Assim que confirmado, enviaremos a localização do nosso guincho em tempo real para você acompanhar a chegada.
-
-📞 Atendimento rápido em Guarulhos e região.`;
-
-const WHATSAPP_URL = `https://wa.me/5511999999999?text=${encodeURIComponent(WHATSAPP_MSG)}`;
+const WHATSAPP_URL = `https://wa.me/5511999999999?text=${encodeURIComponent("Olá, vim pelo site e preciso de atendimento urgente")}`;
 
 const ContactSection = () => (
   <section className="py-20 bg-section-dark" id="contato">
