@@ -1,4 +1,4 @@
-import { MapPin, Navigation } from "lucide-react";
+import { Navigation } from "lucide-react";
 
 const LocationSection = () => (
   <section className="py-20 bg-muted" id="localizacao">
@@ -35,26 +35,6 @@ const LocationSection = () => (
         </a>
       </div>
 
-      <div className="mt-16 bg-card border border-border rounded-lg p-8 text-center">
-        <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
-          <MapPin className="w-7 h-7 text-primary" />
-        </div>
-        <h3 className="text-xl font-bold text-card-foreground mb-2">
-          Veja onde nosso guincho está agora
-        </h3>
-        <p className="text-muted-foreground mb-4">
-          Acompanhe a localização em tempo real do nosso guincho
-        </p>
-        <a
-          href="https://maps.google.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 text-primary font-semibold hover:underline"
-        >
-          <MapPin className="w-4 h-4" />
-          Ver localização em tempo real
-        </a>
-      </div>
     </div>
   </section>
 );
