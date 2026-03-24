@@ -18,7 +18,7 @@ const HeroSection = () => (
     {/* Animated glow orbs */}
     <motion.div
       className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full opacity-20 blur-3xl"
-      style={{ background: "hsl(213, 94%, 55%)" }}
+      style={{ background: "hsl(49, 100%, 50%)" }}
       animate={{ scale: [1, 1.3, 1], x: [0, 50, 0], y: [0, -30, 0] }}
       transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
     />
