@@ -114,6 +114,6 @@
   }
 
   .bg-radial-glow {
-    background-image: radial-gradient(ellipse 60% 50% at 50% 0%, hsla(213, 94%, 55%, 0.12), transparent);
+    background-image: radial-gradient(ellipse 60% 50% at 50% 0%, hsla(49, 100%, 50%, 0.12), transparent);
   }
 }
