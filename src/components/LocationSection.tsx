@@ -20,7 +20,7 @@ const LocationSection = () => {
           <h2 className="text-3xl md:text-5xl font-black text-foreground mt-3">
             Nossa <span className="gradient-text">Localização</span>
           </h2>
-          <p className="text-muted-foreground mt-3">Atendemos toda Guarulhos e região</p>
+          <p className="text-muted-foreground mt-3">Atendemos toda São Paulo e região</p>
         </motion.div>
 
         <motion.div
@@ -30,8 +30,8 @@ const LocationSection = () => {
           className="rounded-2xl overflow-hidden gradient-border mb-8"
         >
           <iframe
-            title="Localização Pretos'car - Guarulhos"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117042.54576529387!2d-46.57!3d-23.45!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce8b2fdd692b77%3A0xdaea8cf7a78cfa1f!2sGuarulhos%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1"
+            title="Localização Pretos'car - São Paulo"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.5!2d-46.5388!3d-23.5098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5f2e0e0e0e0f%3A0x0!2sRua+Presidente+Epit%C3%A1cio%2C+133+-+Jardim+Maragogipe%2C+S%C3%A3o+Paulo+-+SP!5e0!3m2!1spt-BR!2sbr!4v1"
             width="100%"
             height="400"
             style={{ border: 0 }}
@@ -43,7 +43,7 @@ const LocationSection = () => {
 
         <div className="flex justify-center">
           <a
-            href="https://maps.google.com/?q=Guarulhos,SP"
+            href="https://maps.google.com/?q=Rua+Presidente+Epitácio+133+Jardim+Maragogipe+São+Paulo+SP"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-xl font-semibold hover:brightness-110 transition-all glow-primary hover:scale-105 duration-300"
