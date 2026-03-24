@@ -37,7 +37,7 @@ const HeroSection = () => (
         className="inline-flex items-center gap-2 glass px-4 py-2 rounded-full mb-8"
       >
         <span className="w-2 h-2 rounded-full bg-whatsapp animate-pulse" />
-        <span className="text-sm font-medium text-muted-foreground">Atendimento 24h • Guarulhos e Região</span>
+        <span className="text-sm font-medium text-muted-foreground">Atendimento 24h • São Paulo e Região</span>
       </motion.div>
 
       <motion.h1
