@@ -48,7 +48,7 @@ const HeroSection = () => (
       >
         Guincho Rápido
         <br />
-        <span className="gradient-text">em Guarulhos</span>
+        <span className="gradient-text">em São Paulo</span>
       </motion.h1>
 
       <motion.p

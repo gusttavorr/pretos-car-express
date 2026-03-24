@@ -21,7 +21,7 @@ const ContactSection = () => {
           <h2 className="text-3xl md:text-5xl font-black text-foreground mt-3 mb-3">
             Entre em <span className="gradient-text">Contato</span>
           </h2>
-          <p className="text-muted-foreground mb-10">Pretos'car — Guincho 24h em Guarulhos</p>
+          <p className="text-muted-foreground mb-10">Pretos'car — Guincho 24h em São Paulo e Região</p>
         </motion.div>
 
         <motion.div

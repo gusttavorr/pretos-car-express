@@ -43,7 +43,7 @@ const LocationSection = () => {
 
         <div className="flex justify-center">
           <a
-            href="https://maps.google.com/?q=Guarulhos,SP"
+            href="https://maps.google.com/?q=Rua+Presidente+Epitácio+133+Jardim+Maragogipe+São+Paulo+SP"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-xl font-semibold hover:brightness-110 transition-all glow-primary hover:scale-105 duration-300"
