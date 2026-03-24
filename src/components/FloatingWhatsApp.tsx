@@ -12,11 +12,11 @@ const FloatingWhatsApp = () => (
     initial={{ scale: 0 }}
     animate={{ scale: 1 }}
     transition={{ delay: 1, type: "spring", stiffness: 200 }}
-    whileHover={{ scale: 1.15 }}
+    whileHover={{ scale: 1.1 }}
     whileTap={{ scale: 0.95 }}
-    className="fixed bottom-6 right-6 z-50 w-16 h-16 bg-whatsapp text-whatsapp-foreground rounded-full flex items-center justify-center shadow-2xl glow-whatsapp"
+    className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-whatsapp text-whatsapp-foreground rounded-full flex items-center justify-center shadow-2xl glow-whatsapp"
   >
-    <MessageCircle className="w-8 h-8" />
+    <MessageCircle className="w-7 h-7" />
     <span className="absolute inset-0 rounded-full bg-whatsapp animate-ping opacity-20" />
   </motion.a>
 );
