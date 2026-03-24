@@ -20,7 +20,7 @@ const LocationSection = () => {
           <h2 className="text-3xl md:text-5xl font-black text-foreground mt-3">
             Nossa <span className="gradient-text">Localização</span>
           </h2>
-          <p className="text-muted-foreground mt-3">Atendemos toda Guarulhos e região</p>
+          <p className="text-muted-foreground mt-3">Atendemos toda São Paulo e região</p>
         </motion.div>
 
         <motion.div
